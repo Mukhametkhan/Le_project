@@ -1,6 +1,6 @@
 FROM python:3.9-slim as todolist
 
-COPY requirements.txt /tmp/
+COPY requirments.txt /tmp/
 RUN pip install -r /tmp/requirements.txt
 
 COPY . /app
